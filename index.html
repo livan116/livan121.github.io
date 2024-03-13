@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>personal portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-----navbar------------------------------------->
+    <div id="menu">
+      <div id="toggle"></div>
+      <div id="navbar">
+        <nav id="header">
+          <ul id="sidemenu">
+            <img src="assests/moon.png" id="sun-moon" />
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">CodingProfiles</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <!--<img src="portfoliologo1.png" id="portfoliologo">-->
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!---home--------------------------------------->
+    <section>
+      <div id="home">
+        <div>
+          <img src="assests/portfoliologo.png" id="logo-smallscreen" />
+        </div>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>M Livan Kumar</span> <br />
+            From Hyderabad
+          </h1>
+          <p></p>
+          <div class="social-icons" id="H-socialmedia-icons">
+            <a
+              style="color: rgb(3, 183, 255)"
+              href="https://www.linkedin.com/in/livan-kumar-854758207/"
+              ><i class="fa fa-linkedin" id="linkedin"></i
+            ></a>
+            <a style="color: rgb(237, 9, 115)" href="#"
+              ><i class="fa fa-instagram" id="insta"></i
+            ></a>
+            <a href="https://github.com/livan116"
+              ><i class="fa fa-github" id="github"></i
+            ></a>
+          </div>
+          <div class="hire-btn">
+            <a href="hireMe.html">
+              <button type="submit" class="submit-btn">Hire Me</button>
+            </a>
+          </div>
+        </div>
+        <div id="bgPhoto">
+          <!-- <img src="bg1.png" id="bg"> -->
+          <img src="assests/giphy.gif" id="mypic" />
+        </div>
+      </div>
+    </section>
+    <!----about--------------------------------------->
+    <section>
+      <div id="About">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assests/about.gif" class="myimg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"><span>About Me</span></h1>
+            <p>
+              Welcome to my portfolio website! I'm a budding web developer with
+              a passion for crafting beautiful and functional websites. Take a
+              look around to see some of my projects and get in touch if you'd
+              like to collaborate <br />
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Datastructures and Alogorithms</span><br />Intermediate
+                </li>
+                <li><span>Programming Languages</span><br />Python , Java</li>
+                <li>
+                  <span>Web technologies</span><br />HTML5, CSS3, JavaScript,
+                  ReactJS, NodeJS, Mongodb
+                </li>
+                <li><span>Data Base</span><br />MySQL</li>
+                <li><span>Operating System</span><br />Windows, Linux</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/livan116/BookStore_CRUD/tree/main/"
+                  >
+                    <span>Book Store - CRUD </span></a
+                  ><br />• I’ve developed a book store management system with
+                  MongoDB, Express.js, React.js, and Node.js. <br />
+                  • I developed user-friendly features including CRUD operations
+                  for books and categories and responsive design, with
+                  full-stack programming.
+                </li>
+                <li>
+                  <a href="https://github.com/livan116/Imagine_/">
+                    <span>AI Image Generation </span></a
+                  ><br />•Using React and the OpenAI API, I created a web
+                  application for AI image generation. <br />
+                  • I developed a user-friendly interface that smoothly
+                  interfaces with the OpenAI API to generate images based on
+                  user input, utilizing my expertise in front-end development
+                  with React. Through this project, I gained valuable experience
+                  in API integration.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - 2024</span><br />B.Tech | Institute of
+                  Aeronautical Engineering, Hyderabad<br />Computer Science and
+                  Engineering.
+                </li>
+                <li>
+                  <span>2018 - 2020</span><br />Intermediate | St. Anthony's
+                  Junior College, Sangareddy.
+                </li>
+                <li>
+                  <span>2018</span><br />Secondary | Karuna High School,
+                  Sangareddy.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------portfolioooo-------------->
+    <section>
+      <div id="Portfolio">
+        <div class="pf">
+          <h1 class="codingprofile">
+            Coding <span>Profiles </span><i class="fa fa-code"></i>
+          </h1>
+          <p>
+            I solved <span>500+ </span> DS and Algo Questions across platforms.
+          </p>
+          <p>Solved <span>100+</span> problems in Leet Code.</p>
+        </div>
+        <div class="portfolio-list">
+          <ul>
+            <li>
+              <a
+                href="https://leetcode.com/livan121/"
+                target="_blank"
+                id="profilelink"
+                ><img src="assests/leetcodelogo.png" alt="" id="pro" /> Leet
+                <span id="titles">Code</span></a
+              >
+            </li>
+            <br />
+            <li>
+              <a
+                href="https://www.codechef.com/users/livan121"
+                target="_blank"
+                id="profilelink"
+                ><img src="assests/codechef.png" alt="" id="pro" /> Code
+                <span id="titles">Chef</span></a
+              >
+            </li>
+            <br />
+            <li>
+              <a
+                href="https://www.hackerrank.com/profile/20951A0575"
+                target="_blank"
+                id="profilelink"
+                ><img src="assests/HackerRank.png" alt="" id="pro" /> Hacker
+                <span id="titles">Rank </span></a
+              >
+            </li>
+            <br />
+            <li>
+              <a
+                href="https://auth.geeksforgeeks.org/user/20951a0575/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+                target="_blank"
+                id="profilelink"
+                ><img src="assests/gfg.jpeg" alt="" id="pro" /> Geekfor
+                <span id="titles">Geeks</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!----services----------------------------------------------------------->
+    <section>
+      <div id="services">
+        <h1 class="sub-title"><span>My Services</span></h1>
+        <div class="services-list">
+          <div>
+            <i class="fa fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Web site development using web technologies</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa fa-crop-alt"></i>
+            <h2>Software Development Engineer</h2>
+            <p>Looking for an SDE role</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------Contact me----------------->
+    <section>
+      <div id="Contact">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"><span>Contact Me</span></h1>
+            <p id="mail">
+              <i class="fa fa-envelope" style="color: rgb(215, 77, 77)"></i
+              >livankumar112@gmail.com
+            </p>
+            <p id="phone">
+              <i
+                class="fa fa-phone"
+                aria-hidden="true"
+                style="color: rgb(6, 234, 6)"
+              ></i
+              >+91- 7013788446
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt" id="location-icon"></i
+              >Sangareddy, India
+            </p>
+            <div class="social-icons" id="H-socialmedia-icons">
+              <a
+                style="color: rgb(3, 183, 255)"
+                href="https://www.linkedin.com/in/livan-kumar-854758207/"
+                ><i class="fa fa-linkedin" id="linkedin"></i
+              ></a>
+              <a style="color: rgb(237, 9, 115)" href="#"
+                ><i class="fa fa-instagram" id="insta"></i
+              ></a>
+              <a href="https://github.com/livan116"
+                ><i class="fa fa-github" id="github"></i
+              ></a>
+            </div>
+            <div class="cv-btn">
+              <button class="submit-btn">
+                <a href="myresume.pdf" download class="btn"
+                  ><i class="fa-solid fa-cloud-arrow-down"></i>Download CV</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xvoeqvrw" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Your email"
+                required
+              />
+              <input
+                type="text"
+                name="Phone No"
+                placeholder="Phone no."
+                required
+              />
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">
+        <p>&copy; Copyright 2023 Livan Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
